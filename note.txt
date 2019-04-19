@@ -1,0 +1,28 @@
+<!-- <div class="section" onclick="reveal1()" id="section2">
+		<div class="intro">
+			<img src="examples/imgs/1.png" alt="Cool" />
+			<h1>Culture</h1>
+			<p> Quel célèbre dictateur dirigea l’URSS du milieu des années 1920 à 1953 ?</p>
+      <p id="reponse1">Staline</p>
+      
+		</div>
+	</div>
+	
+  <div class="section" onclick="reveal2()" id="section3">
+		<div class="intro">
+			<h1>Culture</h1>
+			<p>Dans quel pays peut-on trouver la Catalogne, l’Andalousie et la Castille ?</p>
+      <p id="reponse2" style="display: none;">l'espagne</p>
+		</div>
+	</div>
+  
+  <div class="section" onclick="reveal3()" id="section4">
+      <div class="intro">
+        <h1>Culture</h1>
+        <p>Qui a dit “ Le sort en est jeté” (Alea jacta est)?</p>
+        <p id="reponse3" style="display: none;">Jules César</p>
+      </div>
+    <a href="culture2.html">La suite (Culture)</a>
+    </div>
+  </div> -->
+  

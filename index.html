@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>QuestionPour1oignon By Le Kalbar</title>
+	<meta name="author" content="Dr.Redfish" />
+	<meta name="description" content="QuestionPour1oignon- Le quizz." />
+	<meta name="keywords"  content="Quizz,Apero,LeKalbar,amical,Jeux,evenement" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="examples/examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<style>
+    #section1{
+      background-image: url("oignon-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #kalbar{
+      background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/29598236_157317674947484_7968688084033622802_n.jpg?_nc_cat=101&_nc_ht=scontent-cdg2-1.xx&oh=791f22cd69feac8596b2886f07323dbc&oe=5D1158D6");
+      background-size: 10% 100%;
+      background-repeat: no-repeat;
+      background-position: top;
+      height: 100px;
+      /*width: 25%;*/
+    }
+
+    h1#titre{
+      color: blue;
+      text-shadow: 5px 10px 18px red;
+
+    }
+
+		#section2 img{
+			left: 130%;
+			position:relative;
+      transition: all 600ms ease;
+		}
+   /* #section2 h2{
+      position:relative;
+      transition: all 600ms ease;
+      font-size: 20px;
+    }*/
+		#section2 p{
+			opacity: 0;
+      transition: all 600ms ease;
+		}
+		#section3 .intro{
+			left: -130%;
+			position:relative;
+      transition: all 600ms ease;
+		}
+
+    #section3 .intro{
+      left: -130%;
+      position:relative;
+      transition: all 600ms ease;
+    }
+
+    
+    /*.champ{
+      background-image: url("mushroom.jpg");
+      background-repeat: no-repeat;
+      background-position: bottom ;
+      background-size: cover;
+      margin-left: 42%;
+
+      height: 200px;
+      width: 15%;
+
+    }*/
+
+   
+
+    /**
+    * Here we fire the animation for section 3.
+    * As the fp-viewing class in the body changes on each section and slide.
+    */
+    body.fp-viewing-3rdPage #section3 .intro{
+       left: 0%;
+    }
+	</style>
+</head>
+<body>
+
+
+
+
+  <script type="text/javascript">
+    // function reveal1(){
+    //   reponse = document.getElementById('reponse1');
+    //   reponseText= reponse.innerText;
+    //   alert(reponseText);
+    // }
+
+    function reveal2(){
+      reponse = document.getElementById('reponse2');
+      reponseText= reponse.innerText;
+      alert(reponseText);
+    }
+
+    function reveal3(){
+      reponse = document.getElementById('reponse3');
+      reponseText= reponse.innerText;
+      alert(reponseText);
+    }
+  </script>
+<div id="fullpage">
+  
+  <div class="section " id="section1">
+        <div id="kalbar"></div>
+    <div class="intro">
+      <h1 id="titre">Question Pour Un Oignon</h1>
+      <h2>êtes-vous pret pour le mega quizz ? </h2>
+      <p>Par le Kalbar <a href="https://www.facebook.com/LeKalbar/" target="_blank">Voir Sur Facebook</a> </p>
+    </div>
+    <br>
+      
+  </div>
+  <div class="section" onclick="reveal1()" id="section2">
+    <div class="intro">
+      <img src="examples/imgs/1.png" alt="Cool" />
+      <h1>Les Régles</h1>
+      <ul>
+         <li><h2>Les Questions sont affichés et il suffit de cliquer pour obtenir la réponse !</h2></li><br>
+         <li><h2>1° Des equipes sont tiré au sort en fonctions du nombres de personnes!</h2></li><br>
+         <li><h2>2° Tirez le nom d'une equipe au hasard</h2></li><br>
+         <li><h2>3° Puis tours a tours les équipes répondent a une questions/defis de manieres collective ou individuel</h2></li><br>
+         <li><h2>4° Plusieurs thémes seront abordés et à chaques questions/defis est préciser la manieres de participer</h2></li><br>
+         <li><h2>5° l'equipe qui remport le plus grand nombre de points sur le total des questions se verra gagner diverses récompenses  </h2></li>
+      </ul>
+      <p id="reponse1" style="display: none;">le Kalbar</p>
+    </div>
+  </div>
+  
+  <div class="section" onclick="reveal2()" id="section3">
+    <div class="intro">
+      <img src="examples/imgs/2.png" alt="Cool" />
+      <h1>Un Example</h1>
+      <p>Quel est le nom de votre bar préféré</p>
+      <p id="reponse2" style="display: none;">le Kalbar</p>
+    </div>
+  </div>
+  
+  <div class="section" onclick="reveal3()" id="section4">
+    <img src="examples/imgs/3.png" alt="Cool" />
+      <div class="intro">
+        <h1>Les Questions Bétons</h1>
+        <p>Si votre equipe tombe sur cette question</p>
+        <p>une question sera aléatoirement choisit dans le mettre de questions</p>
+        <p> et gare a vous car ce sont des questions difficiles</p>
+        <!-- <p id="reponse3" style="display: none;">Jules César</p> -->
+      </div>
+    <h2><a href="culture2.html">C'EST PARTIS !</a></h2>
+    </div>
+  </div>
+	
+  
+ 
+
+
+<script type="text/javascript" src="dist/fullpage.js"></script>
+<script type="text/javascript" src="examples/examples.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+         sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+   
+    });
+
+    
+
+
+</script>
+
+</body>
+</html>

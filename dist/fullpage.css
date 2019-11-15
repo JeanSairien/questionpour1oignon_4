@@ -161,6 +161,7 @@ html.fp-enabled,
     margin: -6px 0 0 -6px;
     border-radius: 100%;
  }
+ 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%;
@@ -178,12 +179,14 @@ html.fp-enabled,
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
+
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
     width: 10px;
     height: 10px;
     margin: -5px 0px 0px -5px;
 }
+
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
@@ -198,6 +201,7 @@ html.fp-enabled,
     width: 0;
     cursor: pointer;
 }
+
 #fp-nav ul li:hover .fp-tooltip,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
     -webkit-transition: opacity 0.2s ease-in;
